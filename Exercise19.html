@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма с флажком и радио кнопкой</title>
+</head>
+<body>
+    <h1>Пример формы с флажком и радио кнопкой</h1>
+
+    <form action="#" method="POST">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="city">Выберите город:</label>
+        <select id="city" name="city" required>
+            <option value="moscow">Москва</option>
+            <option value="spb">Санкт-Петербург</option>
+            <option value="novosibirsk">Новосибирск</option>
+            <option value="ekaterinburg">Екатеринбург</option>
+        </select><br><br>
+
+        <!-- Флажок -->
+        <label for="subscribe">Подписаться на новости:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+        <!-- Радио кнопки -->
+        <label>Выберите пол:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Мужской</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Женский</label><br><br>
+->
+        <input type="submit" value="Отправить">
+    </form>
+
+    <div class="content">
+    </div>
+
+    <div class="links-container">
+        <a href="Exercise18.html">Exercise18</a>
+        <a href="index.html">Home</a>
+        <a href="Exercise20.html">Exercise20</a>
+    </div>
+</body>
+</html>
